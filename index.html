@@ -15,25 +15,26 @@ body {
 
 nav {
   background-color: #333;
-  padding: 0 0;
-position: fixed;
+  padding: 10px 0;
+position: absolute;
 top:0;
 width: 100vw;
 height: 25vh;
-z-index: 1000
+z-index: 1000;
+
 }
 .some{
-margin-top: 15vh;
+
+position: relative;
+top: 25vh;
 }
 .container {
   max-width: 800px;
   margin: auto;
-
+padding-top: 70px;
   padding: 20px;
 }
-#about{
-margin-top: 100px;
-}
+
 h1 {
   color: #fff;
   margin: 0;
@@ -97,7 +98,7 @@ height: 15vh;
 z-index: 1000
 }
 .some{
-	margin-top: 5vh;
+	top: 15vh;
 }
   .menu-toggle {
     display: block;
@@ -117,6 +118,7 @@ display: none;
 
 .menu.show { 
 display: block;
+
 }
   .menu li {
     display: block;
@@ -216,6 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.classList.toggle('show');
   });
 });
+
 
   </script>
 
