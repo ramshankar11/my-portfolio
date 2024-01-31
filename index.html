@@ -97,20 +97,17 @@ h1 {
   </style>
 </head>
 <body>
-  <nav>
+<nav>
     <div class="container">
       <h1>Ram Shankar - Engineer Forever</h1>
-      <div class="menu-toggle">
-        <input type="checkbox" id="menu-toggle-checkbox">
-        <label for="menu-toggle-checkbox" class="menu-icon">&#9776;</label>
-        <ul class="menu">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Skills & Expertise</a></li>
-          <li><a href="#projects">Projects & Case Studies</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#connect">Let's Connect</a></li>
-        </ul>
-      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="menu" id="menu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills & Expertise</a></li>
+        <li><a href="#projects">Projects & Case Studies</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#connect">Let's Connect</a></li>
+      </ul>
     </div>
   </nav>
 
@@ -179,27 +176,17 @@ h1 {
   </div>
 
   <script >
-document.addEventListener("DOMContentLoaded", function() {
-  const navLinks = document.querySelectorAll('nav ul li a');
+document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menu = document.getElementById('menu');
 
-  navLinks.forEach(function(link) {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-
-      const targetId = this.getAttribute('href').substring(1);
-      const targetSection = document.getElementById(targetId);
-
-      if (targetSection) {
-        window.scrollTo({
-          top: targetSection.offsetTop - 50,
-          behavior: 'smooth'
-        });
-      }
-    });
+  menuToggle.addEventListener('click', function() {
+    const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+    this.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('show');
   });
 });
 
-    
   </script>
 
 </body>
