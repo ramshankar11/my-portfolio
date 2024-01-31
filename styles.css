@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
 }
@@ -34,13 +34,33 @@ header p {
   font-size: 20px;
 }
 
-section {
-  padding: 20px 0;
+nav ul {
+  list-style: none;
 }
 
-ul {
-  list-style: none;
-  padding-left: 20px;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
 }
 
 footer {
