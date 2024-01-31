@@ -33,10 +33,17 @@ Played a key role in migrating Concourse CI/CD workflows to Github Actions, stre
 * Google Cloud Platform Professional Data Engineer (GCP PDE)
 * Google Cloud Platform Certified Network Engineer (GCP NETWORK)
 * Google Cloud Platform Certified DevOps Engineer (GCP DEVOPS)
+* Google Cloud Platform Certified Security Engineer (GCP SECURITY)
+* Google Cloud Platform Associate Cloud Engineer (GCP ACE)
 * Cisco Certified Network Associate (CCNA)
 * Certified Kubernetes Administrator (CKA)
 * Certified Kubernetes Application Developer (CKAD)
-* Azure Certifications (list specific ones)
+* Microsoft Certified: Azure Administrator Associate
+* HashiCorp Certified: Terraform Associate (002)
+* Microsoft Certified: Azure AI Fundamentals
+* Microsoft Certified: Azure Data Fundamentals
+* Microsoft Certified: Azure Fundamentals
+* Microsoft Certified: Azure Virtual Desktop Specialty
 
 ## Let's Connect
 
