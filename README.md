@@ -1,8 +1,8 @@
-# [Your Name] - Data Engineering Powerhouse
+# Ram Shankar - Engineer Forever
 
 ## About Me
 
-A passionate data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.
+A passionate cloud data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.
 
 ## Skills & Expertise
 
@@ -13,9 +13,9 @@ A passionate data engineer with a proven track record of building and automating
 
 ## Projects & Case Studies
 
-**1. Accenture ETL Pipelines:**
+**1. ETL Pipelines:**
 
-Developed and maintained X ETL pipelines for Accenture, ingesting and processing diverse data sources at high volumes for various business needs. 
+Developed and maintained ETL pipelines, ingesting and processing diverse data sources at high volumes for various business needs. 
 
 **2. Vertex AI POC:**
 
@@ -40,12 +40,6 @@ Played a key role in migrating Concourse CI/CD workflows to Github Actions, stre
 
 ## Let's Connect
 
-I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on [LinkedIn URL] or [email address].
+I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on Linkedin(https://www.linkedin.com/in/ram-shankar-5b9519200/) or Email-id(ramshankar06042000@gmail.com).
 
 ---
-
-This is just a basic example, feel free to customize it further with your specific details, project descriptions, achievements, and links. Remember to add visuals like screenshots or diagrams to enhance your website.
-
-For the design aspects, consider using CSS code within your Markdown file or exploring themes and templates available on platforms like StartBootstrap or Bulma.io.
-
-I hope this helps you get started! Let me know if you have any further questions about customizing your GitHub Pages website.
