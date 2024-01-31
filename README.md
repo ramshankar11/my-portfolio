@@ -9,7 +9,7 @@
       background-color: #f9f9f9;
       color: #333;
       line-height: 1.6;
-      padding: 20px;
+      padding: 10px;
     }
 
     h1 {
@@ -45,34 +45,34 @@
 
     .container {
        width: 100%; /* Set the width to 100% */
-      max-width: 800px; /* Set a maximum width to prevent the content from extending too wide */
+      max-width: 1000px; /* Set a maximum width to prevent the content from extending too wide */
       margin: auto; /* Center the container horizontally */
-      padding: 0 20px; /* Add padding to the left and right sides */
+      padding: 0 10px; /* Add padding to the left and right sides */
     }
 
     .section {
       background-color: #fff;
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 20px;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 10px;
     }
 
     .section-title {
-      margin-bottom: 10px;
-      font-size: 24px;
+      margin-bottom: 5px;
+      font-size: 12px;
     }
 
     .project-item {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .btn {
       display: inline-block;
-      padding: 8px 16px;
+      padding: 4px 8px;
       background-color: #007bff;
       color: #fff;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 2px;
     }
 
     .btn:hover {
