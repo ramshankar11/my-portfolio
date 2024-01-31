@@ -4,92 +4,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ram Shankar - Engineer Forever</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-      padding: 10px;
-    }
+   body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
-    h1 {
-      color: #333;
-      text-align: center;
-    }
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
 
-    h2 {
-      color: #444;
-    }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-    p {
-      margin-bottom: 15px;
-    }
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
 
-    ul {
-      list-style-type: none;
-      padding-left: 20px;
-    }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 
-    li {
-      margin-bottom: 8px;
-    }
+nav ul li a:hover {
+  text-decoration: underline;
+}
 
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
+.section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
-    .container {
-       width: 100%; /* Set the width to 100% */
-      max-width: 1000px; /* Set a maximum width to prevent the content from extending too wide */
-      margin: auto; /* Center the container horizontally */
-      padding: 0 10px; /* Add padding to the left and right sides */
-    }
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
-    .section {
-      background-color: #fff;
-      border-radius: 4px;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
+.project-item {
+  margin-bottom: 20px;
+}
 
-    .section-title {
-      margin-bottom: 5px;
-      font-size: 12px;
-    }
-
-    .project-item {
-      margin-bottom: 10px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 4px 8px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 2px;
-    }
-
-    .btn:hover {
-      background-color: #0056b3;
-    }
   </style>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills & Expertise</a></li>
+      <li><a href="#projects">Projects & Case Studies</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#connect">Let's Connect</a></li>
+    </ul>
+  </nav>
+
   <div class="container">
     <h1>Ram Shankar - Engineer Forever</h1>
 
-    <div class="section">
+    <section id="about" class="section">
       <h2>About Me</h2>
       <p>A passionate cloud data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.</p>
-    </div>
+    </section>
 
-    <div class="section">
+    <section id="skills" class="section">
       <h2>Skills & Expertise</h2>
       <ul>
         <li>Data Pipelines: Python, Informatica Intelligent Cloud Services, Composer, GCP, Striim (CDC data)</li>
@@ -97,9 +90,9 @@
         <li>DevOps & Automation: Kubernetes, Airflow, Github Actions</li>
         <li>Programming Languages: Python, SQL</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section id="projects" class="section">
       <h2>Projects & Case Studies</h2>
       <div class="project-item">
         <h3>1. ETL Pipelines</h3>
@@ -113,9 +106,9 @@
         <h3>3. Github Actions Migration</h3>
         <p>Played a key role in migrating Concourse CI/CD workflows to Github Actions, streamlining the software development and deployment process.</p>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
+    <section id="certifications" class="section">
       <h2>Certifications</h2>
       <ul>
 <li>  Red Hat Certified System Administrator (RHCSA) </li>
@@ -135,14 +128,39 @@
 <li>  Microsoft Certified: Azure Data Fundamentals  </li>
 <li>  Microsoft Certified: Azure Fundamentals  </li>
 <li>  Microsoft Certified: Azure Virtual Desktop Specialty  </li>
-      </ul> 
-    </div>
+      </ul>
+    </section>
 
-    <div class="section">
+    <section id="connect" class="section">
       <h2>Let's Connect</h2>
       <p>I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on <a href="https://www.linkedin.com/in/ram-shankar-5b9519200">Linkedin</a> or email me at ramshankar06042000@gmail.com.
       </p>
-    </div>
+    </section>
   </div>
+
+  <script >
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        window.scrollTo({
+          top: targetSection.offsetTop - 50,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+
+    
+  </script>
+
 </body>
 </html>
