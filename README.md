@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -117,10 +116,24 @@
     <div class="section">
       <h2>Certifications</h2>
       <ul>
-        <li>Red Hat Certified System Administrator (RHCSA)</li>
-        <li>AWS Certified Solutions Architect - Associate (AWS-SAA)</li>
-        <!-- Add more certifications -->
-      </ul>
+<li>  Red Hat Certified System Administrator (RHCSA) </li>
+<li>  AWS Certified Solutions Architect - Associate (AWS-SAA) </li>
+<li>  Google Cloud Platform Professional Cloud Architect (GCP PCA) </li>
+<li>  Google Cloud Platform Professional Data Engineer (GCP PDE) </li>
+<li>  Google Cloud Platform Certified Network Engineer (GCP NETWORK) </li>
+<li>  Google Cloud Platform Certified DevOps Engineer (GCP DEVOPS) </li>
+<li>  Google Cloud Platform Certified Security Engineer (GCP SECURITY) </li>
+<li>  Google Cloud Platform Associate Cloud Engineer (GCP ACE) </li>
+<li>  Cisco Certified Network Associate (CCNA) </li>
+<li>  Certified Kubernetes Administrator (CKA) </li>
+<li>  Certified Kubernetes Application Developer (CKAD)  </li>
+<li>  Microsoft Certified: Azure Administrator Associate </li>
+<li>  HashiCorp Certified: Terraform Associate (002)  </li>
+<li>  Microsoft Certified: Azure AI Fundamentals  </li>
+<li>  Microsoft Certified: Azure Data Fundamentals  </li>
+<li>  Microsoft Certified: Azure Fundamentals  </li>
+<li>  Microsoft Certified: Azure Virtual Desktop Specialty  </li>
+      </ul> 
     </div>
 
     <div class="section">
