@@ -1,54 +1,133 @@
-# Ram Shankar - Engineer Forever
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ram Shankar - Engineer Forever</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
 
-## About Me
+    h1 {
+      color: #333;
+      text-align: center;
+    }
 
-A passionate cloud data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.
+    h2 {
+      color: #444;
+    }
 
-## Skills & Expertise
+    p {
+      margin-bottom: 15px;
+    }
 
-* **Data Pipelines:** Python, Informatica Intelligent Cloud Services, Composer, GCP, Striim (CDC data)
-* **Cloud Technologies:** GCP, AWS, Azure
-* **DevOps & Automation:** Kubernetes, Airflow, Github Actions
-* **Programming Languages:** Python, SQL
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+    }
 
-## Projects & Case Studies
+    li {
+      margin-bottom: 8px;
+    }
 
-**1. ETL Pipelines:**
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
 
-Developed and maintained ETL pipelines, ingesting and processing diverse data sources at high volumes for various business needs. 
+    a:hover {
+      text-decoration: underline;
+    }
 
-**2. Vertex AI POC:**
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
 
-Leveraged Airflow and Kubernetes to automate the provisioning, processing, and teardown of Vertex AI instances, optimizing resource utilization and cost-effectiveness.
+    .section {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
 
-**3. Github Actions Migration:**
+    .section-title {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
 
-Played a key role in migrating Concourse CI/CD workflows to Github Actions, streamlining the software development and deployment process.
+    .project-item {
+      margin-bottom: 20px;
+    }
 
-## Certifications
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
 
-* Red Hat Certified System Administrator (RHCSA)
-* AWS Certified Solutions Architect - Associate (AWS-SAA)
-* Google Cloud Platform Professional Cloud Architect (GCP PCA)
-* Google Cloud Platform Professional Data Engineer (GCP PDE)
-* Google Cloud Platform Certified Network Engineer (GCP NETWORK)
-* Google Cloud Platform Certified DevOps Engineer (GCP DEVOPS)
-* Google Cloud Platform Certified Security Engineer (GCP SECURITY)
-* Google Cloud Platform Associate Cloud Engineer (GCP ACE)
-* Cisco Certified Network Associate (CCNA)
-* Certified Kubernetes Administrator (CKA)
-* Certified Kubernetes Application Developer (CKAD)
-* Microsoft Certified: Azure Administrator Associate
-* HashiCorp Certified: Terraform Associate (002)
-* Microsoft Certified: Azure AI Fundamentals
-* Microsoft Certified: Azure Data Fundamentals
-* Microsoft Certified: Azure Fundamentals
-* Microsoft Certified: Azure Virtual Desktop Specialty
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ram Shankar - Engineer Forever</h1>
 
-## Let's Connect
+    <div class="section">
+      <h2>About Me</h2>
+      <p>A passionate cloud data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.</p>
+    </div>
 
-I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on 
-Linkedin: https://www.linkedin.com/in/ram-shankar-5b9519200
-Email-id: ramshankar06042000@gmail.com
+    <div class="section">
+      <h2>Skills & Expertise</h2>
+      <ul>
+        <li>Data Pipelines: Python, Informatica Intelligent Cloud Services, Composer, GCP, Striim (CDC data)</li>
+        <li>Cloud Technologies: GCP, AWS, Azure</li>
+        <li>DevOps & Automation: Kubernetes, Airflow, Github Actions</li>
+        <li>Programming Languages: Python, SQL</li>
+      </ul>
+    </div>
 
----
+    <div class="section">
+      <h2>Projects & Case Studies</h2>
+      <div class="project-item">
+        <h3>1. ETL Pipelines</h3>
+        <p>Developed and maintained ETL pipelines, ingesting and processing diverse data sources at high volumes for various business needs.</p>
+      </div>
+      <div class="project-item">
+        <h3>2. Vertex AI POC</h3>
+        <p>Leveraged Airflow and Kubernetes to automate the provisioning, processing, and teardown of Vertex AI instances, optimizing resource utilization and cost-effectiveness.</p>
+      </div>
+      <div class="project-item">
+        <h3>3. Github Actions Migration</h3>
+        <p>Played a key role in migrating Concourse CI/CD workflows to Github Actions, streamlining the software development and deployment process.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Red Hat Certified System Administrator (RHCSA)</li>
+        <li>AWS Certified Solutions Architect - Associate (AWS-SAA)</li>
+        <!-- Add more certifications -->
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Let's Connect</h2>
+      <p>I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on <a href="https://www.linkedin.com/in/ram-shankar-5b9519200">Linkedin</a> or email me at ramshankar06042000@gmail.com.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
