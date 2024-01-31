@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ram Shankar - Engineer Forever</title>
   <style>
- body {
+body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
@@ -30,15 +30,12 @@ h1 {
 }
 
 .menu-toggle {
-  display: flex;
-  align-items: center;
-}
-
-.menu-icon {
-  font-size: 24px;
+  background: none;
+  border: none;
   color: #fff;
   cursor: pointer;
-  margin-right: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
 }
 
 .menu {
@@ -49,8 +46,17 @@ h1 {
   display: none;
 }
 
+.menu.show {
+  display: block;
+}
+
 .menu li {
-  display: inline;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
 }
 
 .menu li a {
@@ -62,18 +68,20 @@ h1 {
 
 .menu li a:hover {
   background-color: #555;
+  border-radius: 4px;
   transition: background-color 0.3s ease;
 }
 
 @media screen and (max-width: 600px) {
   .menu-toggle {
-    justify-content: space-between;
+    display: block;
+    text-align: left;
   }
 
   .menu {
     display: none;
     position: absolute;
-    top: 55px;
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: #333;
@@ -86,11 +94,7 @@ h1 {
 
   .menu li {
     display: block;
-  }
-
-  .menu li a {
-    display: block;
-    padding: 10px 20px;
+    margin: 0;
   }
 }
 
