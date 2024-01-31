@@ -1,82 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ram Shankar - Engineer Forever</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-      padding: 20px;
-    }
-
-    h1 {
-      color: #333;
-      text-align: center;
-    }
-
-    h2 {
-      color: #444;
-    }
-
-    p {
-      margin-bottom: 15px;
-    }
-
-    ul {
-      list-style-type: none;
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .section {
-      background-color: #fff;
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-
-    .section-title {
-      margin-bottom: 10px;
-      font-size: 24px;
-    }
-
-    .project-item {
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 8px 16px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-
-    .btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
@@ -116,24 +44,10 @@
     <div class="section">
       <h2>Certifications</h2>
       <ul>
-<li>  Red Hat Certified System Administrator (RHCSA) </li>
-<li>  AWS Certified Solutions Architect - Associate (AWS-SAA) </li>
-<li>  Google Cloud Platform Professional Cloud Architect (GCP PCA) </li>
-<li>  Google Cloud Platform Professional Data Engineer (GCP PDE) </li>
-<li>  Google Cloud Platform Certified Network Engineer (GCP NETWORK) </li>
-<li>  Google Cloud Platform Certified DevOps Engineer (GCP DEVOPS) </li>
-<li>  Google Cloud Platform Certified Security Engineer (GCP SECURITY) </li>
-<li>  Google Cloud Platform Associate Cloud Engineer (GCP ACE) </li>
-<li>  Cisco Certified Network Associate (CCNA) </li>
-<li>  Certified Kubernetes Administrator (CKA) </li>
-<li>  Certified Kubernetes Application Developer (CKAD)  </li>
-<li>  Microsoft Certified: Azure Administrator Associate </li>
-<li>  HashiCorp Certified: Terraform Associate (002)  </li>
-<li>  Microsoft Certified: Azure AI Fundamentals  </li>
-<li>  Microsoft Certified: Azure Data Fundamentals  </li>
-<li>  Microsoft Certified: Azure Fundamentals  </li>
-<li>  Microsoft Certified: Azure Virtual Desktop Specialty  </li>
-      </ul> 
+        <li>Red Hat Certified System Administrator (RHCSA)</li>
+        <li>AWS Certified Solutions Architect - Associate (AWS-SAA)</li>
+        <!-- Add more certifications -->
+      </ul>
     </div>
 
     <div class="section">
