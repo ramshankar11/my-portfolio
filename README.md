@@ -44,8 +44,10 @@
     }
 
     .container {
-      width: 800vw;
-      margin: auto;
+       width: 100%; /* Set the width to 100% */
+      max-width: 800px; /* Set a maximum width to prevent the content from extending too wide */
+      margin: auto; /* Center the container horizontally */
+      padding: 0 20px; /* Add padding to the left and right sides */
     }
 
     .section {
