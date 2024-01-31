@@ -47,6 +47,8 @@ Played a key role in migrating Concourse CI/CD workflows to Github Actions, stre
 
 ## Let's Connect
 
-I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on Linkedin(https://www.linkedin.com/in/ram-shankar-5b9519200/) or Email-id(ramshankar06042000@gmail.com).
+I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on 
+Linkedin: https://www.linkedin.com/in/ram-shankar-5b9519200
+Email-id: ramshankar06042000@gmail.com
 
 ---
