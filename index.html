@@ -1,238 +1,240 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ram Shankar - Engineer Forever</title>
+  <title>Ram Shankar B - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
+    /* Basic Styling */
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-nav {
-  background-color: #333;
-  padding: 10px 0;
-position: absolute;
-top:0;
-width: 100vw;
-height: 25vh;
-z-index: 1000;
+    /* Container */
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
 
-}
-.some{
+    /* Two-Column Layout */
+    .resume-content {
+      display: flex;
+      gap: 30px;
+    }
 
-position: relative;
-top: 25vh;
-}
-.container {
-  max-width: 800px;
-  margin: auto;
-padding-top: 70px;
-  padding: 20px;
-}
+    .sidebar {
+      width: 30%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+    }
 
-h1 {
-  color: #fff;
-  margin: 0;
-}
+    .main-content {
+      width: 70%;
+    }
 
-.menu-toggle {
-  background: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 24px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-display: none;
-}
+    /* Headings */
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+      color: #2962FF;
+    }
 
-.menu {
-  list-style-type: none;
+    h2 {
+      font-size: 1.5em;
+      margin-top: 1.5em;
+      margin-bottom: 0.8em;
+      color: #2962FF;
+    }
 
-  padding: 0;
-  text-align: center;
-	
-  display: block;
-}
+    h3 {
+      font-size: 1.2em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+    }
 
- .menu.show {
-  display: block;
-} 
+    /* Lists */
+    ul {
+      list-style-type: disc;
+      padding: 0;
+      margin-left: 20px;
+      margin-bottom: 1em;
+    }
 
-.menu li {
-  display: inline-block;
-  margin-right: 30px;
-  background-color: #555;
-  border-radius: 4px;
-  widt
-}
+    li {
+      margin-bottom: 0.5em;
+    }
 
-.menu li:last-child {
-  margin-right: 0;
-}
+    /* Links */
+    a {
+      color: #2962FF;
+      text-decoration: none;
+    }
 
-.menu li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-.menu li a:hover {
-  background-color: #565;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
+    /* Work Experience */
+    .job-entry {
+      margin-bottom: 2em;
+    }
 
-@media screen and (max-width: 600px) {
-nav{
-top:0;
-width: 100vw;
-height: 12vh;
-z-index: 1000;
-padding 5px
-}
-.some{
-	top: 12vh;
-}
-h1{
-text-align: left;
-font-size: 30px
-}
-  .menu-toggle {
-    display: block;
-    text-align: right;
-position: right;
-padding: 13px;
+    .date {
+      font-style: italic;
+      color: #777;
+      text-align: right;
+      margin-bottom: 0.5em;
+    }
 
-  }
+    /* Skills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 1em;
+    }
 
-.menu { 
-display: none;
-  position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 1000;
-}
+    .skill-item {
+      background-color: #e0f2f7;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+    }
 
-.menu.show { 
-display: block;
+    /* Certifications */
+    .certifications ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-}
-  .menu li {
-    display: block;
-    margin: 0;
-  }
-}
+    .certifications li {
+      margin-bottom: 0.5em;
+    }
 
+    .certifications strong {
+      display: block;
+      margin-bottom: 0.2em;
+    }
   </style>
 </head>
 <body>
-<nav>
-    <div class="container">
-      <h1>Ram Shankar<br/> - Engineer Forever</h1>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">&#9776;</button>
-      <ul class="menu" id="menu">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills & Expertise</a></li>
-        <li><a href="#projects">Projects & Case Studies</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#connect">Let's Connect</a></li>
-      </ul>
-    </div>
-  </nav>
-<div class="some">
   <div class="container">
+    <div class="resume-content">
+      <div class="sidebar">
+        <h2>Contact</h2>
+        <ul>
+          <li><strong>Mobile:</strong> <a href="tel:+91-9080968625">+91-9080968625</a></li>
+          <li><strong>Email:</strong> <a href="mailto:ramshankar06042000@gmail.com">ramshankar06042000@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ram-shankar-5b9519200">Ram Shankar</a></li>
+        </ul>
 
+        <h2>Personal</h2>
+        <ul>
+          <li><strong>Location:</strong> Rajapalayam</li>
+          <li><strong>Date of Birth:</strong> Apr 06, 2000</li>
+          <li><strong>Gender:</strong> Male</li>
+          <li><strong>Marital Status:</strong> Single / Unmarried</li>
+        </ul>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>A passionate cloud data engineer with a proven track record of building and automating scalable pipelines using state-of-the-art tools. Driven by a thirst for knowledge and a love for tackling complex technical challenges.</p>
-    </section>
-
-    <section id="skills" class="section">
-      <h2>Skills & Expertise</h2>
-      <ul>
-        <li>Data Pipelines: Python, Informatica Intelligent Cloud Services, Composer, GCP, Striim (CDC data)</li>
-        <li>Cloud Technologies: GCP, AWS, Azure</li>
-        <li>DevOps & Automation: Kubernetes, Airflow, Github Actions, Terraform, RHEL </li>
-        <li>Programming Languages: Python, SQL</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section">
-      <h2>Projects & Case Studies</h2>
-      <div class="project-item">
-        <h3>1. ETL Pipelines</h3>
-        <p>Developed and maintained ETL pipelines, ingesting and processing diverse data sources at high volumes for various business needs.</p>
+        <h2>Languages</h2>
+        <ul>
+          <li>English</li>
+          <li>Tamil</li>
+          <li>Telugu</li>
+        </ul>
       </div>
-      <div class="project-item">
-        <h3>2. Vertex AI POC</h3>
-        <p>Leveraged Airflow and Kubernetes to automate the provisioning, processing, and teardown of Vertex AI instances, optimizing resource utilization and cost-effectiveness.</p>
-      </div>
-      <div class="project-item">
-        <h3>3. Composer Upgrades</h3>
-        <p> Upgrading the composer instances in google cloud platform to the new and latest version for extending the support from google on the security.</p>
-      </div>	    
-      <div class="project-item">
-        <h3>3. Github Actions Migration</h3>
-        <p>Played a key role in migrating Concourse CI/CD workflows to Github Actions, streamlining the software development and deployment process.</p>
-      </div>
-    </section>
 
-    <section id="certifications" class="section">
-      <h2>Certifications</h2>
-      <ul>
-<li>  Red Hat Certified System Administrator (RHCSA) </li>
-<li>  AWS Certified Solutions Architect - Associate (AWS-SAA) </li>
-<li>  Google Cloud Platform Professional Cloud Architect (GCP PCA) </li>
-<li>  Google Cloud Platform Professional Data Engineer (GCP PDE) </li>
-<li>  Google Cloud Platform Certified Network Engineer (GCP NETWORK) </li>
-<li>  Google Cloud Platform Certified DevOps Engineer (GCP DEVOPS) </li>
-<li>  Google Cloud Platform Certified Security Engineer (GCP SECURITY) </li>
-<li>  Google Cloud Platform Associate Cloud Engineer (GCP ACE) </li>
-<li>  Cisco Certified Network Associate (CCNA) </li>
-<li>  Certified Kubernetes Administrator (CKA) </li>
-<li>  Certified Kubernetes Application Developer (CKAD)  </li>
-<li>  Microsoft Certified: Azure Administrator Associate </li>
-<li>  HashiCorp Certified: Terraform Associate (002)  </li>
-<li>  Microsoft Certified: Azure AI Fundamentals  </li>
-<li>  Microsoft Certified: Azure Data Fundamentals  </li>
-<li>  Microsoft Certified: Azure Fundamentals  </li>
-<li>  Microsoft Certified: Azure Virtual Desktop Specialty  </li>
-	      I am also open to learn any technology that is in demand by businesses
-      </ul>
-    </section>
+      <div class="main-content">
+        <h1>Ram Shankar Baskaran</h1>
+        <h3>Cloud Data Engineer</h3>
 
-    <section id="connect" class="section">
-      <h2>Let's Connect</h2>
-      <p>I'm actively seeking new challenges and opportunities to contribute my skills and expertise. Feel free to connect with me on <a href="https://www.linkedin.com/in/ram-shankar-5b9519200">Linkedin</a> or email me at ramshankar06042000@gmail.com.
-      </p>
-    </section>
+        <h2>Summary</h2>
+        <p>Cloud Data Engineer with a keen interest in acquiring proficiency in diverse tools and technologies.</p>
+
+        <h2>Work Experience</h2>
+        <div class="job-entry">
+          <h3>Data Engineer at STG Infotech</h3>
+          <p class="date">Apr 2024 to Present</p>
+          <p>As a Data Engineer at STG Infotech, I analyze and convert Alteryx workflows into GCP BigQuery SQLs and orchestrate the ETL pipelines using Airflow under the Astronomer platform.</p>
+          <h3>Responsibilities:</h3>
+          <ul>
+            <li>Write SQL Queries for replicating the Alteryx workflows</li>
+            <li>Write Python code for creating DAGs and custom functions based on requirements</li>
+          </ul>
+        </div>
+
+        <div class="job-entry">
+          <h3>Data Engineering Analyst at Accenture</h3>
+          <p class="date">Jun 2021 to Apr 2024</p>
+          <p>As a Data Engineer at Accenture, I orchestrated end-to-end data engineering workflows on GCP using Informatica (IICS), Striim, Python, and Apache Airflow.</p>
+          <h3>Responsibilities:</h3>
+          <ul>
+            <li>Designed and implemented Apache Airflow DAGs for ETL from diverse sources (Oracle, Postgres, Snowflake, Public API, and Unix Server) into BigQuery</li>
+            <li>Leveraged taskflows in IICS and executed SQL queries, Python functions involving complex transformations that cannot be performed in IICS</li>
+            <li>Used Google Cloud Storage as the staging area for ETL pipelines and loaded data from GCS to BigQuery</li>
+            <li>Utilized Striim to efficiently capture CDC loads</li>
+            <li>Contributed to upgrading Composer (Airflow) in GCP, leading impact analysis, executing upgrades, and ensuring seamless data workflow continuity</li>
+            <li>Participated in creating GitHub Actions workflows for deploying code to BigQuery and Composer with every commit to the GitHub repository</li>
+          </ul>
+        </div>
+
+        <h2>Education</h2>
+        <div>
+          <h3>P.S.R. Engineering College, Sivakasi</h3>
+          <p><em>B.Tech/B.E. (Computers)</em></p>
+          <ul>
+            <li><strong>Year of Passing:</strong> 2021</li>
+            <li><strong>Grade:</strong> 7.9 / 10</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Chinmaya Vidyalaya, Rajapalayam</h3>
+          <p>12th Grade - Computer Science</p>
+          <ul>
+            <li><strong>Year of Passing:</strong> 2017</li>
+            <li><strong>Grade:</strong> 92%</li>
+          </ul>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <span class="skill-item">Airflow</span>
+          <span class="skill-item">Google Cloud Platform</span>
+          <span class="skill-item">Python</span>
+          <span class="skill-item">Github Actions</span>
+          <span class="skill-item">IICS</span>
+          <span class="skill-item">Striim</span>
+          <span class="skill-item">Kubernetes</span>
+          <span class="skill-item">Linux</span>
+          <span class="skill-item">AWS</span>
+          <span class="skill-item">SQL</span>
+        </div>
+
+        <div class="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            <li><strong>Google Cloud Platform:</strong> <a href="https://www.credential.net/5757ae39-e30d-4349-b0b1-e96368f19afb">Associate</a>, <a href="https://www.credential.net/c4f2e9e4-c55e-4f6c-919c-1fec5e9ad733">Data</a>, <a href="https://www.credential.net/e55e452a-266e-49a7-bf75-c72ef24002a8">Architect</a>, <a href="https://www.credential.net/85068227-e135-4521-855b-4b3bb2fdff5d">DevOps</a>, <a href="https://www.credential.net/3f9526eb-051a-463a-8dd2-8b2a71ba9403">Network</a>, <a href="https://www.credential.net/d0bd1c2c-89c5-484e-9351-e329c7d4c0f9">Security</a>, <a href="https://google.accredible.com/e2851b8f-7e56-45d6-9213-a5ef747b2293">Machine Learning</a></li>
+            <li><strong>Kubernetes:</strong> <a href="https://www.credly.com/badges/7653404b-0a81-448c-aaa5-3d7d22bd19ab/linked_in_profile">CKA</a>, <a href="https://www.credly.com/badges/4694a4c8-1b69-4095-b92a-1db3d3beee21/linked_in_profile">CKAD</a></li>
+            <li><strong>Azure:</strong> <a href="https://learn.microsoft.com/en-us/users/ramshankarb-3972/credentials/27755d97a8c6b3e4">AZ-104</a>, <a href="https://learn.microsoft.com/en-us/users/ramshankarb-3972/credentials/8179e32fa0da4813">AZ-140</a>, <a href="https://learn.microsoft.com/en-us/users/RamShankarB-3972/credentials/39B8F89F465A7A66?ref=https%3A%2F%2Fwww.linkedin.com%2F">AI-900</a></li>
+            <li><strong>AWS:</strong> <a href="https://www.credly.com/badges/39250671-7d82-4883-af1c-c8232a240052/linked_in_profile">SAA</a></li>
+            <li><strong>Terraform:</strong> <a href="https://www.credly.com/badges/ee478a92-13fc-4fa7-8e67-7ba12d92c261/linked_in_profile">Associate</a></li>
+            <li><strong>CCNA:</strong> <a href="https://www.credly.com/badges/9ab9035e-69bb-46a1-8550-200f2384439f/linked_in_profile">CCNA</a></li>
+            <li><strong>REDHAT:</strong> <a href="https://www.credly.com/badges/282d3397-770d-40dd-a06b-cfdd84df564c/public_url">RHCSA</a></li>
+            <li><strong>GITHUB:</strong> <a href="https://www.credly.com/badges/f2584cad-3e6f-4182-bbf3-3f864cf85026/linked_in_profile">Foundations</a>, <a href="https://www.credly.com/badges/d815bda3-9c29-4868-b269-ab0a29b3dd9e/linked_in_profile">Actions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-  <script >
-document.addEventListener('DOMContentLoaded', function() {
-  const menuToggle = document.querySelector('.menu-toggle');
-  const menu = document.getElementById('menu');
-
- menuToggle.addEventListener('click', function() {
-    const expanded = this.getAttribute('aria-expanded') === 'true' || false;
-    this.setAttribute('aria-expanded', !expanded);
-    menu.classList.toggle('show');
-  });
-});
-
-
-  </script>
-
 </body>
 </html>
